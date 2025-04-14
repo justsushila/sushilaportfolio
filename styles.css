@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    scroll-behavior: smooth;
+    background-image: url(sushi.jpg);
+   text-shadow: none;
+}
+
+nav {
+    text-shadow: transparent;
+    padding: 2rem 0;
+    text-shadow: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 2rem;
+    color: #08daf6;
+}
+nav .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 6rem;
+}
+
+nav .nav-links li {
+    font-size: 1.2rem;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: rgb(229, 212, 242);
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: rgb(23, 207, 90);
+}
+
+header {
+    text-shadow: none;
+    color: #96d9fa;
+    padding: 5rem 0;
+    text-align: center;
+    border-bottom: 0px solid #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    background: none;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-style: italic;
+    background: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: transparent;
+    text-shadow: none;
+    color: whitesmoke;
+}
+
+#about {
+    padding: 4rem 0;
+    text-shadow: none;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+    text-decoration: none;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+   color: rgba(249, 250, 235, 0);
+} 
+
+#about p {
+    font-size: 2.5rem;
+    color: rgb(245, 81, 81);
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    background: none;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #99f0c1;
+}
+#skills {
+    padding: 4rem 0;
+    text-shadow: none;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+    text-decoration: none;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+#skills p {
+    font-size: 2.5rem;
+    color: rgb(237, 90, 90);
+}
+.skills-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    background: none;
+}
+#education {
+    padding: 4rem 0;
+    text-shadow: none;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+    text-decoration: none;
+}
+
+#education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(252, 248, 248);
+    background-color: transparent;
+}
+
+#education p {
+    font-size: 2.5rem;
+    color: rgb(239, 103, 103);
+    background-color: transparent;
+}
+
+.education-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    background: none;
+}
+
+#contact {
+    background-color: transparent;
+    padding: 4rem 0;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+    text-decoration: none;
+    text-shadow: none;
+    color: rgb(216, 94, 94);
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(250, 246, 246);
+}
+
+#contact p {
+    font-size: 1,5rem;
+    margin-bottom: 2rem;
+    color: rgb(238, 107, 107);
+    background-position: 0%;
+}
+
+.contact-icons a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: rgb(0, 255, 26);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: rgb(94, 188, 238);
+}
